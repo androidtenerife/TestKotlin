@@ -7,6 +7,7 @@ import java.util.*
 import java.util.Random as Random
 
 class MainActivity : AppCompatActivity() {
+ lateinit var diceImage: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,9 +31,9 @@ class MainActivity : AppCompatActivity() {
             5 -> R.drawable.dice_5
             else -> R.drawable.dice_6
         }
-        val dado: ImageView = findViewById(R.id.ivDado)
-        dado.setImageResource(drawableResource)
-
+        diceImage.setImageResource(drawableResource)
+        // Send the toast to UI
+        Toast.makeText(this, "Thats it !", Toast.LENGTH_SHORT).show()
 
     }
 
