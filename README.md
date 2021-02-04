@@ -4,9 +4,8 @@ Udacity First App
 
 This is an simple Android app with Kotli and the use of:
 <li>
-<ul>
   -Drawables
-  </ul>
+  </li>
   <ul>
 -Generate Randomize numbers
   </ul>
