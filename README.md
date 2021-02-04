@@ -3,7 +3,17 @@
 Udacity First App
 
 This is an simple Android app with Kotli and the use of:
--Drawables
+<li>
+<ul>
+  -Drawables
+  </ul>
+  <ul>
 -Generate Randomize numbers
+  </ul>
+  <ul>
 -Use of Button 
+  </ul>
+  <ul>
 -Use of Listeners
+  </ul>
+</li>
